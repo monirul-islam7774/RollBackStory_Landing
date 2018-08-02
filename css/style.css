@@ -8,12 +8,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 /*noinspection ALL*/
 @font-face {
     font-family: myFirstFont;
-    src: url('css/fonts/Funhouse.ttf') format('ttf');
+    src: url('Funhouse.ttf');
 }
 
 html, body{
     font-size: 100%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'myFirstFont', sans-serif;
     background: -webkit-linear-gradient(to left, #590f03, #000000, #000000); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgba(47,10,3,0.9), rgba(0,0,0,0.65), rgba(0,0,0,0.65)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	margin: 0;
@@ -26,7 +26,7 @@ p,ul li,ol li{
 	letter-spacing: 1px;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Jura', sans-serif;
+	font-family: 'myFirstFont', sans-serif;
 	text-transform:uppercase;
 	margin:0;
 }
@@ -108,6 +108,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     background: -webkit-linear-gradient(to left, #000000, #2d2d2d); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(45, 45, 45, 0.6)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	position:relative;
+    height: 75px;
 }
 .navbar-nav {
     float: none;
@@ -488,7 +489,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     color: #212121;
     line-height: 1.5em;
     text-transform: capitalize;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'myFirstFont', sans-serif;
     font-size: 1em;
 	font-weight:600;
 	letter-spacing:2px;
@@ -609,7 +610,7 @@ a.hi-icon img {
 }
 
 .hi-icon:before {
-	font-family: 'ecoicon';
+	font-family: 'myFirstFont';
 	speak: none;
 	font-size: 48px;
 	line-height: 90px;
