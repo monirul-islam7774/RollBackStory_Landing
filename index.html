@@ -31,18 +31,18 @@
 			<nav class="navbar navbar-default">
 				<div class="navbar-header navbar-left">
 
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse_mobile">
+                    <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse_mobile">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>
+                    </button>-->
 					<div class="w3_navigation_pos">
 						<h3><a href="index.html">A Rollback Story</a></h3>
 					</div>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-right" id="collapse_mobile">
+				<div class="collapse navbar-collapse navbar-right">
 					<nav class="cl-effect-5" id="cl-effect-5">
                         <ul class="nav navbar-nav pull-right" style="margin-top: 0.5%">
                             <li><a href="https://store.steampowered.com/app/886390/A_RollBack_Story/" target="_blank"><span data-hover="Donate">Donate</span></a></li>
@@ -60,10 +60,30 @@
 <!-- //header -->
 <!-- banner -->
 <!--Carousel Wrapper-->
-<video class=" z-depth-1 sizeOfCanvas" autoplay="autoplay" loop muted playsinline>
+<!--<video class=" z-depth-1 sizeOfCanvas" autoplay="autoplay" loop muted playsinline>
 	<source  src="video/rollback.mp4" type="video/mp4" />
-</video><!--Carousel Wrapper-->
+</video>-->
+<img class=" z-depth-1 sizeOfCanvas" src="images/gif/transition.gif">
+<!--Carousel Wrapper-->
 <!-- //banner -->
+<!--trailer-->
+
+<div style="margin-top: 5%;margin-bottom: 5%">
+	<h3 class="w3l_head w3l_head1">Trailer</h3>
+	<p class="w3ls_head_para w3ls_head_para1">See the trailer before dive into playing</p>
+
+</div>
+<div class="embed-responsive embed-responsive-16by9">
+
+	<video controls poster="images/cover.png">
+
+		<source src="video/trailer.mp4"/>
+
+	</video>
+</div>
+
+<!--trailer-->
+
 <!-- about -->
 	<div class="about" id="story">
 		<div class="container">
@@ -184,7 +204,7 @@
 			<p class="w3ls_head_para w3ls_head_para1">Surf into images</p>
 			<div class="w3layouts_gallery_grids">
 				<ul class="w3l_gallery_grid" id="lightGallery">
-					<li data-src="images/gallery/gallery1.png">
+					<li data-src="images/gallery/gallery1.png" data-responsive-src="images/gallery/gallery1.png">
 						<div class="w3layouts_gallery_grid1 box">
 							<a href="#">
 								<img src="images/gallery/gallery1.png" alt=" " class="img-responsive" />
@@ -195,7 +215,7 @@
 							</a>
 						</div>
 					</li>
-					<li data-src="images/gallery/gallery2.png">
+					<li data-src="images/gallery/gallery2.png" data-responsive-src="images/gallery/gallery2.png">
 						<div class="w3layouts_gallery_grid1 box">
 							<a href="#">
 								<img src="images/gallery/gallery2.png" alt=" " class="img-responsive" />
@@ -206,7 +226,7 @@
 							</a>
 						</div>
 					</li>
-					<li data-src="images/gallery/gallery3.png">
+					<li data-src="images/gallery/gallery3.png" data-responsive-src="images/gallery/gallery3.png">
 						<div class="w3layouts_gallery_grid1 box">
 							<a href="#">
 								<img src="images/gallery/gallery3.png" alt=" " class="img-responsive" />
@@ -217,7 +237,7 @@
 							</a>
 						</div>
 					</li>
-					<li data-src="images/gallery/gallery4.png">
+					<li data-src="images/gallery/gallery4.png" data-responsive-src="images/gallery/gallery4.png">
 						<div class="w3layouts_gallery_grid1 box">
 							<a href="#">
 								<img src="images/gallery/gallery4.png" alt=" " class="img-responsive" />
@@ -227,7 +247,7 @@
 							</a>
 						</div>
 					</li>
-					<li data-src="images/cover.png">
+					<li data-src="images/cover.png" data-responsive-src="images/cover.png">
 						<div class="w3layouts_gallery_grid1 box">
 							<a href="#">
 								<img src="images/cover.png" alt=" " class="img-responsive" />
@@ -237,7 +257,7 @@
 							</a>
 						</div>
 					</li>
-					<li data-src="images/gallery/gallery6.png">
+					<li data-src="images/gallery/gallery6.png" data-responsive-src="images/gallery/gallery6.png">
 						<div class="w3layouts_gallery_grid1 box">
 							<a href="#">
 								<img src="images/gallery/gallery6.png" alt=" " class="img-responsive" />
@@ -247,7 +267,7 @@
 							</a>
 						</div>
 					</li>
-					<li data-src="images/gallery/gallery7.png">
+					<li data-src="images/gallery/gallery7.png" data-responsive-src="images/gallery/gallery7.png">
 						<div class="w3layouts_gallery_grid1 box">
 							<a href="#">
 								<img src="images/gallery/gallery7.png" alt=" " class="img-responsive" />
@@ -257,7 +277,7 @@
 							</a>
 						</div>
 					</li>
-					<li data-src="images/gallery/gallery8.png">
+					<li data-src="images/gallery/gallery8.png" data-responsive-src="images/gallery/gallery8.png">
 						<div class="w3layouts_gallery_grid1 box">
 							<a href="#">
 								<img src="images/gallery/gallery8.png" alt=" " class="img-responsive" />
@@ -267,7 +287,7 @@
 							</a>
 						</div>
 					</li>
-					<li data-src="images/gallery/gallery9.png" >
+					<li data-src="images/gallery/gallery9.png" data-responsive-src="images/gallery/gallery9.png">
 						<div class="w3layouts_gallery_grid1 box">
 							<a href="#">
 								<img src="images/gallery/gallery9.png" alt=" " class="img-responsive" />
@@ -292,7 +312,7 @@
         <br>
         <br>
         <!-- Grid column -->
-        <div class="col-lg-4 col-md-4 col-xs-12">
+        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
 
             <!--Modal: Name-->
             <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -338,7 +358,7 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-lg-4 col-md-4 col-xs-12">
+        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
 
             <!--Modal: Name-->
             <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -388,7 +408,7 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-lg-4 col-md-4 col-xs-12">
+        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
 
             <!--Modal: Name-->
             <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -582,7 +602,14 @@
 
 
 <!-- footer -->
+
 	<div class="w3l_footer">
+		<div style="margin-bottom: 5%" class="col-md-6 col-sm-6 col-lg-6 col-xs-10 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-1 input-group">
+			<input type="email" class="form-control" placeholder="Enter your email">
+			<span class="input-group-btn">
+			 <button class="btn btn-theme" type="submit">Subscribe</button>
+			 </span>
+		</div>
 		<div class="container">
 
 			<div class="w3ls_footer_grids">
@@ -633,7 +660,7 @@
 <!-- //footer -->
 
 <!--banner Slider starts Here-->
-<script src="js/jquery-2.2.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 						<script src="js/responsiveslides.min.js"></script>
 							<script>
 								// You can also use "$(window).load(function() {"
@@ -723,6 +750,24 @@ $(document).ready(function() {
 
 
 <!-- //here ends scrolling icon -->
+<script>
+
+  $('#modal1').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
+  });
+
+  $('#modal6').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#modal6 iframe').attr("src", $("#modal6 iframe").attr("src"));
+  });
+
+  $('#modal4').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#modal4 iframe').attr("src", $("#modal4 iframe").attr("src"));
+  });
+
+</script>
 
 </body>
 </html>
