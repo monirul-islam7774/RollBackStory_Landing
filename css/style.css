@@ -46,8 +46,28 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 }
 /*-- header --*/
 .sizeOfCanvas{
-    height: -webkit-fill-available;
+    height: auto;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sizeOfCanvasSm{
+    height:auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sizeOfCanvaslg{
+    height:-webkit-fill-available;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sizeOfCanvasTrailer{
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .w3layouts_header_left{
 	float:left;
@@ -1060,11 +1080,21 @@ ul#lightGallery {
 .w3ls_footer_grid_leftr{
     float: right;
     width: 80%;
-    text-align: left;
+    text-align: center;
     margin-top: 15px;
+}
+.w3ls_footer_grid_leftr_subscribe{
+    width: 85%;
+    text-align: center;
 }
 .w3ls_footer_grid_leftr h3{
 	font-size: 1.2em;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: .5em;
+}
+.w3ls_footer_grid_leftr_subscribe h3{
+    font-size: 1.2em;
     color: #fff;
     letter-spacing: 3px;
     margin-bottom: .5em;
@@ -1153,6 +1183,7 @@ ul#lightGallery {
 		position: absolute;
 		top: 35%;
 	}
+
 }
 @media (max-width:1366px){
 	.slider-info h4 {
@@ -1168,6 +1199,7 @@ ul#lightGallery {
 		font-size: 1.4em;
 		margin: 7.2em 0 0.5em 0;
 	}
+
 }
 @media (max-width:1280px){
 	.slider-info h4 {
@@ -1184,6 +1216,7 @@ ul#lightGallery {
 		left: 0;
 		bottom: -156%;
 	}
+
 }
 @media (max-width:1080px){
 	.w3_navigation_pos {
@@ -1317,11 +1350,7 @@ ul#lightGallery {
 		font-size: 0.9em;
 		margin: 8.2em 0 0.5em 0;
 	}
-    .sizeOfCanvas{
 
-        width: 100%;
-        height: auto;
-    }
 }	
 @media (max-width: 991px){
 	.w3_navigation_pos h1 a {
@@ -1407,8 +1436,7 @@ ul#lightGallery {
 	}
 	.w3ls_footer_grid_leftr {
 		float: right;
-		width: 75%;
-		text-align: left;
+		text-align: center;
 	}
 	.w3l_footer {
 		padding: 4em 0 3em 0;
@@ -1419,11 +1447,7 @@ ul#lightGallery {
 	.w3l_footer_pos {
 		margin-top: 2em;
 	}
-    .sizeOfCanvas{
 
-        width: 100%;
-        height: auto;
-    }
 }
 @media (max-width: 800px){
 	.w3_navigation_pos {
@@ -1490,11 +1514,7 @@ ul#lightGallery {
 		position: relative;
 		width: 40%;
 	}
-    .sizeOfCanvas{
 
-        width: 100%;
-        height: auto;
-    }
 }
 @media (max-width: 768px){
 	.w3_navigation_pos h1 a {
@@ -1534,10 +1554,7 @@ ul#lightGallery {
 	.projects {
 		padding: 3em 0 0 0;
 	}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
-    }
+
 }
 @media (max-width: 767px){
 	.navbar-default .navbar-toggle {
@@ -1573,10 +1590,7 @@ ul#lightGallery {
 		float: left;
 		margin-top: .9em;
 	}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
-    }
+
 }
 @media (max-width: 736px){
 	.header {
@@ -1609,10 +1623,7 @@ ul#lightGallery {
 	.projects {
 		padding: 2em 0 0 0;
 	}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
-    }
+
 }
 @media (max-width: 667px){
 	.w3layouts_header_right ul li:last-child {
@@ -1654,10 +1665,7 @@ ul#lightGallery {
 		background-position: left top;
        left: 43%;
 	}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
-    }
+
 }
 @media (max-width: 640px){
 	.box, .box .overbox {
@@ -1674,10 +1682,7 @@ ul#lightGallery {
 		float: left;
 		width: 50%;
 	}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
-    }
+
 }
 @media (max-width: 600px){
 	.slider-info h4 {
@@ -1692,10 +1697,7 @@ ul#lightGallery {
 		position: absolute;
 		top: 21%;
 	}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
-    }
+
 }
 @media (max-width: 568px){
 	.agileits_banner_bottom_grid_l h4 {
@@ -1725,10 +1727,7 @@ ul#lightGallery {
 	.w3l_footer_pos {
 		margin-top: 1em;
 	}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
-    }
+
 }
 @media (max-width: 480px){
 
@@ -1770,10 +1769,7 @@ ul#lightGallery {
 	.w3_agile_mail_grid {
 		padding: 0 0px;
 	}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
-    }
+
 }
 @media (max-width: 414px){
 	.agileits_banner_btm_grid_r_pos {
@@ -1850,10 +1846,7 @@ ul#lightGallery {
 		top: -28%;
 		    right: -3%;
 	}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
-    }
+
 }
 @media (max-width: 384px){
 	.slider-info h4 {
@@ -1883,10 +1876,7 @@ ul#lightGallery {
 		margin-top: 20px;
 		font-size: 1.2em;
 	}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
-    }
+
 }
 @media (max-width: 375px){
 	.w3layouts_header_right {
@@ -1895,10 +1885,7 @@ ul#lightGallery {
 		width: 95%;
 		margin: 4px auto 0;
 	}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
-    }
+
 }
 @media (max-width: 320px){
 	.w3_navigation_pos h1 a {
@@ -1932,10 +1919,6 @@ ul#lightGallery {
 	}
 	#mail {
     padding: 0em 0 2em 0;
-}
-    .sizeOfCanvas{
-        width: 100%;
-        height: auto;
     }
 
 }

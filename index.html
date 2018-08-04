@@ -63,23 +63,54 @@
 <!--<video class=" z-depth-1 sizeOfCanvas" autoplay="autoplay" loop muted playsinline>
 	<source  src="video/rollback.mp4" type="video/mp4" />
 </video>-->
-<img class=" z-depth-1 sizeOfCanvas" src="images/gif/transition.gif">
+<!--mobile upto 767px-->
+<div class="hidden-sm hidden-md hidden-lg col-xs-12" >
+
+	<img class="sizeOfCanvas" src="images/gif/transition.gif">
+
+</div>
+<!--mobile upto 767px-->
+
+<!--tablet upto 992px-->
+<div class="hidden-xs hidden-md hidden-lg col-sm-12" >
+
+	<img class="sizeOfCanvasSm" src="images/gif/transition.gif">
+
+</div>
+<!--tablet upto 992px-->
+<!--laptop upto 1199px-->
+<div class="hidden-xs hidden-sm hidden-lg col-md-12" >
+
+	<img class="sizeOfCanvasSm" src="images/gif/transition.gif">
+
+</div>
+<!--laptop upto 1199px-->
+
+<!--desktop upto 1199px-->
+<div class="hidden-xs hidden-sm hidden-md col-lg-11 col-lg-offset-1" >
+
+	<img class="sizeOfCanvaslg" src="images/gif/transition.gif">
+
+</div>
+<!--desktop upto 1199px-->
+
 <!--Carousel Wrapper-->
 <!-- //banner -->
 <!--trailer-->
 
-<div style="margin-top: 5%;margin-bottom: 5%">
+<div style="margin-top: 5%">
 	<h3 class="w3l_head w3l_head1">Trailer</h3>
 	<p class="w3ls_head_para w3ls_head_para1">See the trailer before dive into playing</p>
 
 </div>
-<div class="embed-responsive embed-responsive-16by9">
+<div class="sizeOfCanvasTrailer embed-responsive embed-responsive-16by9">
 
-	<video controls poster="images/cover.png">
+		<video controls poster="images/cover.png">
 
-		<source src="video/trailer.mp4"/>
+			<source src="video/trailer.mp4"/>
 
-	</video>
+		</video>
+
 </div>
 
 <!--trailer-->
@@ -350,7 +381,7 @@
             </div>
             <!--Modal: Name-->
 
-            <div style="width: 400px; cursor: pointer;">
+            <div style="cursor: pointer; margin: 5%">
                 <a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/cover.png" alt="video" data-toggle="modal" data-target="#modal1"></a>
             </div>
 
@@ -398,7 +429,7 @@
             </div>
             <!--Modal: Name-->
 
-            <div style="width: 400px; cursor: pointer;">
+            <div style="cursor: pointer; margin: 5%">
 
                 <a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/cover.png" alt="video" data-toggle="modal" data-target="#modal6"></a>
 
@@ -448,7 +479,7 @@
             </div>
             <!--Modal: Name-->
 
-            <div style="width: 400px; cursor: pointer;">
+            <div style="cursor: pointer; margin: 5%">
 
                 <a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/cover.png" alt="video" data-toggle="modal" data-target="#modal4"></a>
 
@@ -604,11 +635,15 @@
 <!-- footer -->
 
 	<div class="w3l_footer">
-		<div style="margin-bottom: 5%" class="col-md-6 col-sm-6 col-lg-6 col-xs-10 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-1 input-group">
-			<input type="email" class="form-control" placeholder="Enter your email">
-			<span class="input-group-btn">
+		<div style="margin-bottom: 5%;margin-bottom: 5%;margin-left: auto;margin-right: auto;width: 50%;" class="input-group">
+			<div class="w3ls_footer_grid_leftr_subscribe">
+				<h3>Subscribe</h3>
+				<input style="margin: 2%" type="email" class="form-control" placeholder="Enter your email">
+				<span class="input-group-btn">
 			 <button class="btn btn-theme" type="submit">Subscribe</button>
 			 </span>
+			</div>
+
 		</div>
 		<div class="container">
 
